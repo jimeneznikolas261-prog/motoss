@@ -1,0 +1,5 @@
+/* archivo separado para futuras reglas responsive */
+@media(max-width:500px){
+  .hero-content h2{font-size:1.4rem}
+  .logo{width:40px;height:40px}
+}

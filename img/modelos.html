@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Modelos - Mundo Motos</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body class="theme-light">
+  <header class="site-header">
+    <div class="brand">
+      <img src="img/logo.svg" alt="logo" class="logo">
+      <h1>Mundo Motos</h1>
+    </div>
+    <button id="menu-toggle-2" class="menu-toggle" aria-label="Abrir menú">☰</button>
+    <nav class="nav" id="main-nav-2">
+      <a href="index.html">Inicio</a>
+      <a href="modelos.html" class="active">Modelos</a>
+      <a href="contacto.html">Contacto</a>
+      <a href="#" id="toggle-theme-2">🔁 Modo</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="search-section">
+      <h2>Catálogo de modelos</h2>
+      <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Buscar por modelo, marca o tipo...">
+        <select id="filter-type">
+          <option value="all">Todos</option>
+          <option value="deportiva">Deportiva</option>
+          <option value="clasica">Clásica</option>
+          <option value="aventura">Aventura</option>
+        </select>
+      </div>
+    </section>
+
+    <section id="catalog" class="catalog">
+      <!-- Tarjetas generadas por JS -->
+    </section>
+
+    <section class="load-more-wrap">
+      <button id="load-more" class="btn">Cargar más</button>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>© 2025 Mundo Motos</div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
